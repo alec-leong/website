@@ -3,6 +3,7 @@ export default function BitCoinPriceIndex() {
     <iframe src={process.env.BITCOIN_PRICE_INDEX_URL || ''}>
       <style jsx>{`
         iframe {
+          background-color: #FFFFFF;
           border: none;
           height: 100vmax;
           overflow: hidden;
