@@ -4,6 +4,7 @@ import * as THREE from 'three';
 
 class HomePage extends React.Component {
   componentDidMount() {
+    document.documentElement.setAttribute('lang', 'en');
     document.body.setAttribute('style', 'background-color: #000000;');
 
     const canvas = document.querySelector('#cube');
@@ -45,6 +46,13 @@ class HomePage extends React.Component {
     return (
       <div>
         <Head>
+          <meta property="og:site_name" content="alecleong.com"/>
+          <meta property="og:title" content="Alec Leong"/>
+          <meta property="og:description" content="Alec Leong's website."/>
+          <meta property="og:image" content="favicon.ico">
+          <meta property="og:url" content="http://alecleong.com/">
+          <meta property="og:type" content="personal"/>
+          <meta name="description" content="Alec Leong's website." />
           <title>Alec Leong</title>
           <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans"></link>
