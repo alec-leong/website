@@ -6,7 +6,14 @@ class BitCoinPriceIndex extends React.Component {
 
   render() {
     return (
-      <p>Redirecting to <a href={process.env.BITCOIN_PRICE_INDEX_URL}>{process.env.BITCOIN_PRICE_INDEX_URL}</a></p>
+      <div>
+        <p>Redirecting to <a href={process.env.BITCOIN_PRICE_INDEX_URL}>{process.env.BITCOIN_PRICE_INDEX_URL}</a></p>
+        <style jsx>{`
+          p {
+            color: #FFFFFF;
+          }
+        `}</style>
+      </div>
     )
   }
 }
