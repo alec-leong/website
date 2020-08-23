@@ -49,7 +49,7 @@ class HomePage extends React.Component {
           <meta property="og:site_name" content="alecleong.com" />
           <meta property="og:title" content="Alec Leong" />
           <meta property="og:description" content="Alec Leong's website." />
-          <meta property="og:image" content="favicon.ico" />
+          <meta property="og:image" content="favicon-jpeg.jpeg" />
           <meta property="og:url" content="http://alecleong.com/" />
           <meta property="og:type" content="personal" />
           <meta name="description" content="Alec Leong's website." />
