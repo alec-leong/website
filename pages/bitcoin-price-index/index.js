@@ -1,5 +1,6 @@
 class BitCoinPriceIndex extends React.Component {
   componentDidMount() {
+    document.body.setAttribute('style', 'background-color: #000000;');
     window.open(process.env.BITCOIN_PRICE_INDEX_URL, '_blank');
   }
 
